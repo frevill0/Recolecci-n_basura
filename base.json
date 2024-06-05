@@ -1,24 +1,28 @@
 {
-    "users" : [
-        {
-
-        }
-    ]
-
-    ,
-
-    "Reclamos" : [
-        {
-
-        }
-    ]
-
-    ,
-
-    "Horarios": [
-        {
-
-        }
-    ]
-
+  "users": [],
+  "Reclamos": [
+    {
+      "id": "b741cca6-ea56-47c1-8f2f-0b6d8b282cd4",
+      "Direccion": "Real Audiencia",
+      "Imagen": "Basura",
+      "Descripcion": "El acumulamiento de basura esta provocando malos olores lo cual no les gusta a los moradores que residen en ese sector solicitan una rapida solución",
+      "Fecha": "27/05/2024"
+    },
+    {
+      "id": "eabe29db-e90d-4a6c-a333-7e2b4bb67a94",
+      "Direccion": "Guamani",
+      "Imagen": "Basura",
+      "Descripcion": "El camion de la basura solo para una vez por semana lo cual ocasiona que se acumule la basura y generen malos olores",
+      "Fecha": "18/08/2024"
+    },
+    {
+      "id": "ec7a37c1-b886-4c33-aeab-fa06cd9e87b5",
+      "Direccion": "San Jose de Moran",
+      "Imagen": "Contenedor",
+      "Descripcion": "Los contenedores de basura se encuentran en medio de la calle lo cual obstaculiza el paso tanto de carros como de peatones",
+      "Fecha": "04/06/2024"
+    }
+  ],
+  "Horarios": []
 }
+
