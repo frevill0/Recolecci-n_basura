@@ -1,14 +1,17 @@
 import { Router } from "express";
 
-import { getAllClaims, deleteClaim, createClaimModel, getClaimById, updateClaimModel } from "../controllers/reclamo_controller.js";
+import { createClaim, getClaim, getClaimByIdController, updateClaimController, deleteClaimController } from "../controllers/reclamo_controller.js";
 
 const router = Router()
 
-router.get('/claims', getAllClaims)
-router.get('/claims', createClaimModel)
-router.get('/claims/:id', getClaimById)
-router.get('/claims/:id', updateClaimModel)
-router.get('/claims/:id', deleteClaim)
+router.get('/claims',getClaim)
+router.get('/claims/:id', getClaimByIdController)
+router.post('/claims',createClaim)
+router.put('/claims',updateClaimController)
+router.delete('/claims/:id',deleteClaimController)
+
+
+
 
 export default router
 
